@@ -1,0 +1,97 @@
+/* Style the filters container */
+.filters {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the label within the mat-form-field */
+.mat-form-field-label {
+    color: #333; /* Label text color */
+    font-weight: bold; /* Label text font-weight */
+}
+
+/* Style the select dropdown itself */
+.mat-select {
+    border: 1px solid #ccc; /* Add a border to the select */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #fff; /* Background color */
+    padding: 10px; /* Padding inside the select */
+    width: 150px; /* Adjust the width as desired */
+    font-family: Roboto, "Helvetica Neue", sans-serif; /* Set the font */
+}
+
+/* Style the dropdown options */
+.mat-option {
+    padding: 11px 10px; /* Adjust padding as needed */
+    font-family: Roboto, "Helvetica Neue", sans-serif; /* Set the font */
+    color: #333; /* Text color */
+}
+
+/* Style the selected option */
+.mat-select-value-text {
+    font-family: Roboto, "Helvetica Neue", sans-serif; /* Set the font */
+    color: #333; /* Text color */
+}
+/* Style the game card container */
+/* Style the game card container */
+/* Style the game card container */
+/* Style the game card container */
+.games{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.game {
+    width: 280px;
+    margin: 10px;
+    height: 330px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #202020;
+    box-shadow: 4px 3px 8px 0px #c89a2c;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+.game:hover {
+    box-shadow: 4px 3px 8px 0px #c8982c;
+    transform: translateY(-3px);
+}
+.game-thumb-container {
+    background-color: black;
+    position: relative;
+    height: 172px;
+    color: #fff;
+    text-align: center;
+}
+.game-thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto ;
+    height: 172px;
+}
+.game-description{
+    padding: 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 157px;
+}
+.game-name{
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.game-platforms{
+    display: flex;
+}
+.game-platform{
+    width: 20px;
+}
